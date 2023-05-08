@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "acerca_de_nosotros",
+  "info": {
+    "singularName": "acerca-de-nosotro",
+    "pluralName": "acerca-de-nosotros",
+    "displayName": "Acerca de nosotros",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "mostrar": {
+      "type": "boolean"
+    },
+    "imagenes": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
