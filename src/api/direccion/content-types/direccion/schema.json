@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "direccions",
+  "info": {
+    "singularName": "direccion",
+    "pluralName": "direccions",
+    "displayName": "Direccion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "direccion": {
+      "type": "string"
+    }
+  }
+}

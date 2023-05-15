@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "informacion_de_contactos",
+  "info": {
+    "singularName": "informacion-de-contacto",
+    "pluralName": "informacion-de-contactos",
+    "displayName": "Informacion de contacto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "telefono": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

@@ -12,8 +12,39 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Titulo": {
+    "titulo": {
       "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "imagenes": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "en construccion",
+        "terminados"
+      ]
+    },
+    "planos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

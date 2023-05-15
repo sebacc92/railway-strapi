@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "telefonos",
+  "info": {
+    "singularName": "telefono",
+    "pluralName": "telefonos",
+    "displayName": "telefono"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "telefono": {
+      "type": "string"
+    }
+  }
+}

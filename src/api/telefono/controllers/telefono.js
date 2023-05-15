@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * test-list controller
+ * telefono controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::test-list.test-list');
+module.exports = createCoreController('api::telefono.telefono');
