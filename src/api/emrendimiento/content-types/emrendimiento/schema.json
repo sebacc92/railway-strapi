@@ -29,22 +29,25 @@
         "audios"
       ]
     },
-    "categoria": {
-      "type": "enumeration",
-      "enum": [
-        "en construccion",
-        "terminados"
-      ]
-    },
     "planos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categoria.categoria",
+      "inversedBy": "emprendimientos"
+    },
+    "destacado": {
+      "type": "boolean"
     }
   }
 }

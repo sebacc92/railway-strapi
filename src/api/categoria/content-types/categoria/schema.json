@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias",
+  "info": {
+    "singularName": "categoria",
+    "pluralName": "categorias",
+    "displayName": "Categorias"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "enumeration",
+      "enum": [
+        "Inversión",
+        "Trabajando",
+        "Finalizadas",
+        "Proyectos"
+      ]
+    },
+    "emprendimientos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::emrendimiento.emrendimiento",
+      "mappedBy": "categoria"
+    }
+  }
+}

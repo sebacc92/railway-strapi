@@ -20,6 +20,9 @@
     },
     "email": {
       "type": "email"
+    },
+    "whatsapp": {
+      "type": "string"
     }
   }
 }
