@@ -54,6 +54,9 @@
     },
     "longitud": {
       "type": "float"
+    },
+    "videoYoutubeId": {
+      "type": "string"
     }
   }
 }
