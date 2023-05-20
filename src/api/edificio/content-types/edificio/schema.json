@@ -4,7 +4,8 @@
   "info": {
     "singularName": "edificio",
     "pluralName": "edificios",
-    "displayName": "Edificios"
+    "displayName": "Edificios",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,24 +28,32 @@
       "type": "boolean"
     },
     "imagenes": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "planos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "latitud": {
+      "type": "float"
+    },
+    "longitud": {
+      "type": "float"
     }
   }
 }
