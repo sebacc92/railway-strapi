@@ -25,6 +25,12 @@
       "relation": "oneToMany",
       "target": "api::emrendimiento.emrendimiento",
       "mappedBy": "categoria"
+    },
+    "edificios": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::edificio.edificio",
+      "mappedBy": "categoria"
     }
   }
 }
