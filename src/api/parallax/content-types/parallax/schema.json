@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "parallaxes",
+  "info": {
+    "singularName": "parallax",
+    "pluralName": "parallaxes",
+    "displayName": "Parallax"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "parallax": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
