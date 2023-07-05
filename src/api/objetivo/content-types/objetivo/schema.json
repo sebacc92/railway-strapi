@@ -4,7 +4,8 @@
   "info": {
     "singularName": "objetivo",
     "pluralName": "objetivos",
-    "displayName": "Objetivo"
+    "displayName": "Objetivo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
     },
     "contenido": {
       "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
     }
   }
 }
