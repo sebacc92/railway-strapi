@@ -12,19 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nombre": {
-      "type": "enumeration",
-      "enum": [
-        "Proyectos",
-        "Construyendo",
-        "Finalizadas"
-      ]
-    },
     "edificios": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::edificio.edificio",
       "mappedBy": "categoria"
+    },
+    "nombre": {
+      "type": "string"
     }
   }
 }
