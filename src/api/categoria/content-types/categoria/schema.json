@@ -4,7 +4,8 @@
   "info": {
     "singularName": "categoria",
     "pluralName": "categorias",
-    "displayName": "Categorias"
+    "displayName": "Categorias",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,9 @@
     "nombre": {
       "type": "enumeration",
       "enum": [
-        "Inversión",
-        "Trabajando",
-        "Finalizadas",
-        "Proyectos"
+        "Proyectos",
+        "Construyendo",
+        "Finalizadas"
       ]
     },
     "edificios": {
