@@ -84,7 +84,8 @@
       ]
     },
     "index": {
-      "type": "integer"
+      "type": "integer",
+      "default": -1
     }
   }
 }
