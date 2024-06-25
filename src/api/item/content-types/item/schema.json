@@ -42,6 +42,10 @@
         "videos",
         "audios"
       ]
+    },
+    "index": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
